@@ -7,10 +7,10 @@ PRODUCT_NAME := themed_cm6_heroc
 
 # Reorder Product Overlays to properly include theme specific stuff before
 # anything else
-PRODUCT_PACKAGE_OVERLAYS := vendor/jeagoss_extblue/overlay/common
+PRODUCT_PACKAGE_OVERLAYS := vendor/themed_cm6/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/heroc
 
 PRODUCT_COPY_FILES +=  \
-    vendor/jeagoss_extblue/proprietary/ThemeDefaults.apk:system/app/ThemeDefaults.apk \
-    vendor/jeagoss_extblue/prebuilt/common/bin/setdefcols.sh:system/bin/setdefcols.sh
+    vendor/themed_cm6/proprietary/ThemeDefaults.apk:system/app/ThemeDefaults.apk \
+    vendor/themed_cm6/prebuilt/common/bin/setdefcols.sh:system/bin/setdefcols.sh
